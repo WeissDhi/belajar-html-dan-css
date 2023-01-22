@@ -1,0 +1,29 @@
+/* Properti terakhir adalah border-color. Properti ini digunakan untuk menentukan warna pada garis dengan menggunakan nilai RGB, Hex, atau nama warna pada CSS. */
+
+.box {
+/* menggunakan rgb format */
+border-color: rgb(80, 138, 212);
+ 
+/* menggunakan format hex */
+border-color: #4ee717;
+ 
+/* menggunakan nama warna */
+border-color: red;
+ }
+
+/* Sama seperti properti border yang lain, kita dapat menentukan warna pada individual sisi pada elemen dengan menggunakan properti yang terpisah. */
+ #a{
+    border-top-color: #919191;
+    border-right-color: #111111;
+    border-bottom-color: #4ee717;
+    border-left-color: #00c8eb;
+ }
+ /* Tetapi kita juga dapat menetapkan nilai keempatnya sekaligus dalam satu properti seperti ini: */
+ #b{
+    border-color: #919191 #111111 #4ee717 #00c8eb;
+ }
+ /* SHORTHAND (cara cepet) */
+ .box {
+    border: 4px dashed #00a2c6;
+    width: 200px;
+ }

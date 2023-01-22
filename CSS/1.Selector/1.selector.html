@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector HTML</title>
+</head>
+<style>
+    /* Semua elemen span (TYPE SELECTOR)*/
+     span {
+         color: red;
+     }
+
+
+     /* CLASS SELECTOR */
+     .merah {
+        color: red;
+    }
+
+    .biru-langit {
+        background-color: skyblue;
+    }
+
+    .fancy {
+        font-weight: bold;
+        text-shadow: 4px 4px 3px #77f;
+    }
+
+    p.fancy {
+        text-shadow: 4px 4px 3px #00c8eb;
+    }
+
+     /* */
+     /* */
+     /* */
+
+ </style>
+<body>
+    <!-- Type Selector 
+        menggunakan selector ini tentu rule
+        akan diterapkan pada seluruh elemen target yang ada pada dokumen HTML
+    -->
+    <span>Ini merupakan sebuah teks yang berada pada elemen span. Seharusnya elemen ini ditampilkan dengan warna teks merah.</span>
+    <p>Ini merupakan sebuah teks yang berada pada elemen paragraf, teks ini tidak seharusnya tidak akan terpengaruh oleh rule.</p>
+    <span>Ini merupakan sebuah teks yang berada pada elemen span lainnya. Seharusnya elemen ini ditampilkan dengan warna teks merah juga.</span> 
+    <br>
+    <!-- CLASS Selector
+    menetapkan target elemen berdasarkan nilai dari atribut class yang diterapkan pada elemennya -->
+    <br>
+    <p class="merah">Paragraf dengan teks berwarna merah</p>
+    <p class="biru-langit">Paragraf dengan background berwarna biru langit</p>
+    <p class="fancy">Paragraf dengan gaya fancy</p>
+    <p>Paragraf yang menampilkan teks dengan warna standar tanpa menerapkan styling</p>
+    <br>
+    <!--SHAREABLE-->
+    <h1 class="merah">Heading dengan teks berwarna merah</h1>
+    <p class="merah">Paragraf dengan teks berwarna merah</p>
+    <br>
+    <h1 class="merah biru-langit">Heading dengan teks berwarna merah dan background biru langit</h1>
+    <p class="merah fancy">Paragraf dengan teks berwarna merah dan bergaya fancy</p>
+    <br>
+
+    <h1 class="fancy">Heading dengan teks bergaya fancy</h1>
+    <p class="fancy">Paragraf dengan teks bergaya fancy</p>
+
+
+
+
+
+</body>
+</html>
